@@ -1,5 +1,5 @@
 substitutions:
-  name: "Bed Room"
+  name: "Bedroom"
 
 esphome:
   name: bedroom
