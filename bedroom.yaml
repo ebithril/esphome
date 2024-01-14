@@ -1,0 +1,20 @@
+substitutions:
+  name: "Bed Room"
+
+esphome:
+  name: bedroom
+
+<<: !include base.yaml
+
+<<: !include secrets.yaml
+
+captive_portal:
+    
+sensor:
+  - platform: sht3xd
+    address: 0x45
+    temperature:
+      name: $name Temperature
+    humidity:
+      name: $name Humidity
+    update_interval: 60s

@@ -1,0 +1,10 @@
+esp8266:
+  board: d1_mini
+
+i2c:
+  sda: GPIO4
+  scl: GPIO5
+  id: bus_a
+
+# Enable logging
+logger:
